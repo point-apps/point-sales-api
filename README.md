@@ -15,7 +15,25 @@
 - [ESLint](https://eslint.org/) Code Linting
 - [Prettier](https://prettier.io/) Code Formatting
 
-## Docker Build
+## Contribution Guide
+---
+### Quickstart
+
+#### With Docker
+
+```bash
+docker-compose up --build
+```
+
+#### Without Docker
+
+```bash
+cp .env.example .env
+npm install
+npm run dev
+```
+
+### Deployment
 
 ```bash
 docker build -t pointapp/sales-api .
